@@ -16,6 +16,8 @@ const Education = () => {
                   description={
                     <p>
                       Open Computer Science studies at the polytechnical of Jyväskylä.
+                      During my time at Jamk, I have studied Software development, AI, Data understanding, Business understanding, and Leadership skills.
+                      I aim to graduate by 2025.
                     </p>
                   }
         />
@@ -23,8 +25,9 @@ const Education = () => {
         <TimeCard time={"Aug 2016 - Feb 2020"} company={"Gradia"} companyLink={"https://www.gradia.fi/"} jobtitles={["Datanomi", "High School"]}
                   description={
                     <p>
-                      I graduated from my dual degree studies at the start of 2020. During my studies I attended my mandatory military service.
-                      My main studies included .NET development with C#. At high school I studied Maths, Physics, English and Finnish.
+                      I graduated from my dual degree studies (high school and professional bachelor's degree) at the beginning of 2020. 
+                      During my studies, I also attended my mandatory military service.
+                      My studies included .NET and C# development.
                     </p>
                   }
         />

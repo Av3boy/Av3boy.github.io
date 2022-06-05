@@ -30,10 +30,10 @@ const Skills = () => {
             <br />
             <br />
             <p>
-                Experienced in <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile</a> and
-                <a href="https://www.atlassian.com/agile/scrum">Scrum</a> methodology. Work with clients, managers to providing
-                inputs throughout project and coming up with resource requirements, design solutions,
-                development estimates, and so forth and confirm business objectives are met.
+                Experienced in <a href="https://en.wikipedia.org/wiki/Agile_software_development">Agile</a> and <a href="https://www.atlassian.com/agile/scrum">Scrum</a> methodologies. 
+                Worked together with multiple teams and even led some. 
+                I have had to handled team resources and requirements.
+                Designed and developed multiple software and made sure the objectives set, had been met in time.
             </p>
 
             <p>
@@ -52,24 +52,27 @@ const Skills = () => {
       <div className="row">
         <SkillCard img={`${process.env.PUBLIC_URL + "assets/images/dotnet.svg"}`} description={
                   <p>
-                    From all the technolgies I'm most proficent with .NET. I started with it and work with projects that are built with it.
-                    I have worked with many projects using C#, Entity Framework, .NET Core and others. 
+                    Of all the technologies I'm most proficient with .NET.
+                    I started my career with .NET and have worked on multiple projects using it.
+                    I have worked with many projects using C#, Entity Framework, .NET Core, and others. 
                   </p>} />
 
                   <SkillCard img={`${process.env.PUBLIC_URL + "assets/images/python.svg"}`} description={
                   <p>
-                    While studying AI, computer vision and other computer learning related technologies Python has been the go to.
+                    While studying AI, computer vision, and other computer learning-related technologies, Python has been the go-to.
                   </p>} />
 
                   <SkillCard img={`${process.env.PUBLIC_URL + "assets/images/javascript.svg"}`} description={
                   <p>
-                    This site is built on JavaScript. I have used it since the first day I started learning computer science with the most basic websites.
-                    Among JavaScript, Node, TypeScript, NEXT.JS I have created many projects that help me in my daily life.
+                    This site that you are on was built using JavaScript.
+                    I have used JavaScript since the first day I started learning computer science with the most basic websites.
+                    Among JavaScript, Node, TypeScript, and NEXT.JS, I have created many projects that help me in my everyday life.
                   </p>} />
 
                   <SkillCard img={`${process.env.PUBLIC_URL + "assets/images/cplusplus.svg"}`} description={
                   <p>
-                    C++ is a fairly new addition to my catalog. I aim to study computer graphics with OpenGL and later expand through parallel programming to CUDA programming and better understand grpahics and related studies.
+                    C++ is a reasonably new addition to my catalog.
+                    Using C++, I aim to study computer graphics with OpenGL and later expand through parallel programming to CUDA programming and better understand computer graphics and related studies.
                   </p>} />
       </div>
 

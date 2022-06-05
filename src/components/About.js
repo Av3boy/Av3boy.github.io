@@ -17,7 +17,7 @@ const About = () => {
       <ul className="theme-list">
         <li><b>From:</b> Jyväskylä, Finland</li>
         <li><b>Age:</b> {getAge()}</li>
-        <li><b>Studies:</b> CS @ <a href="https://www.jamk.fi/fi">JAMK</a></li>
+        <li><b>Studies:</b> Software Engineering @ <a href="https://www.jamk.fi/fi">JAMK</a></li>
         <li><b>Work:</b> <a href="https://www.recastsoftware.com/">Recast Software</a></li>
       </ul>
     );
@@ -47,8 +47,8 @@ const About = () => {
       </div>
 
       <div className="left-image-post">
-        <div className="">
-          <div className="col-md-5" style={{float: "left", width: "50%", padding: "0 3em 3em 0", zIndex: 1 }}>
+        <div className="row">
+          <div className="col-md-5" >
             <div className="left-image fade-in-left">
               <img src="assets/images/about-img.jpg" alt="" />
               {
@@ -74,26 +74,13 @@ const About = () => {
               </p>
 
               <p>
-                My career started with the most basic web development and after that I delved into windows desktop software development with .NET Framework.
-                I then expanded my skills with game development using engines such as Unity and Unreal Engine 4.
-                At the start of 2019 I served my mandatory military service where I started VR development using Unreal Engine 4.
-                After my military service I graduted from my Computer Science and highschool dual degree studies.
-                During the worst period of the Covid 19 pandemic I explored the field further and expanded my skill in many fields such as Graphics Development using OpenGL,
-                IOT with arduino, E-commerce using Stripe and more.
-                I brought further my web development knownledge by using technologies such as .NET Core, React, TypeScript and CICD.
+                Recently I've started writing blogs about technologies I find interesting. You can find my blog site <a href="https://av3boy.github.io/blog">here</a>.
+                (Note: The site is currently down for revamp)
               </p>
 
               <p>
-                I am Software Engineering student.
-              </p>
-
-              <p>
-                Recently I've started writing blogs about technologies I find interesting. My blog site can be found here. (Note: The site is currently down for rewamp)
-              </p>
-
-              <p>
-                I want to expand the field with my knownledge and you can see my contributions from my Grepper page.
-                At this time grepper shows that I have helped close to 50000 developers
+              I want to expand the field with my knowledge. You can see my contributions from my Grepper page.
+                At this time, Grepper shows that I have helped over 50000 developers!
                 </p>
 
               {
